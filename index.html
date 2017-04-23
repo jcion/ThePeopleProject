@@ -9,18 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog</title>
+    <title>The People Project</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Theme CSS -->
-    <link href="css/clean-blog.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- Custom CSS -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,31 +29,29 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
-                    Menu <i class="fa fa-bars"></i>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand" href="#">Home</a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="#">About</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="#">Services</a>
                     </li>
                     <li>
-                        <a href="post.html">Sample Post</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -67,132 +60,158 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Clean Blog</h1>
-                        <hr class="small">
-                        <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
-                    </div>
-                </div>
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">The People Project
+                    <small>By Jason Cion</small>
+                </h1>
             </div>
         </div>
-    </header>
+        <!-- /.row -->
 
-    <!-- Main Content -->
-    <div class="container">
+        <!-- Project One -->
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Man must explore, and this is exploration at its greatest
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Problems look mighty small from 150 miles up
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-                        </h2>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2014</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Science has not yet mastered prophecy
-                        </h2>
-                        <h3 class="post-subtitle">
-                            We predict too much for the next year and yet far too little for the next ten.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Failure is not an option
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on July 8, 2014</p>
-                </div>
-                <hr>
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="img1/Copenhagen/Backdrop.JPG" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Copenhagen</h3>
+               
+                <p>Home for the next year. Pro tip for those planning to live in Copenhagen: learn how to bike BEFORE you come.</p>
+                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Two -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="img1/Budapest/Backdrop.JPG" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Budapest</h3>
+                
+                <p>The first stop on my solo trip. Cheap food and drinks, interesting architecture, colourful history, and a great nightlife. What more could you ask for?</p>
+                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Three -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="img1/Brussels/Backdrop.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Brussels</h3>
+                <p> Some would call it the capital of Europe, I would call it the capital for waffles and beer. I think we're both right.</p>
+                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Four -->
+        <div class="row">
+
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="img1/Rome/Backdrop.JPG" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Rome</h3>
+                
+                <p>Ancient history come to life. Plus pasta, pizza, and pretty fucking long lines.</p>
+                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Five -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="img1/Florence/Backdrop.JPG" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Florence</h3>
+                <p>Come for the tourist attractions, stay for the t-bone steaks.</p>
+                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Pagination -->
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="#">&laquo;</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo;</a>
                     </li>
                 </ul>
             </div>
         </div>
-    </div>
+        <!-- /.row -->
 
-    <hr>
+        <hr>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
+        <!-- Footer -->
+        <footer>
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <ul class="list-inline text-center">
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
                 </div>
             </div>
-        </div>
-    </footer>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
 
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/clean-blog.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 
