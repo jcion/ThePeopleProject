@@ -12,9 +12,9 @@ footer {
     margin: 50px 0;
 }
 
-.fixed-bg {
+.fixed-bg1 {
     /* The background image */
-    background-image: url("../img1/daniel-posthuma.jpg");
+    background-image: url("../img1/Backgrounds/daniel-posthuma.jpg");
     /* Set a specified height, or the minimum height for the background image */
     min-height: 500px;
     /* Set background image to fixed (don't scroll along with the page) */
@@ -30,6 +30,75 @@ footer {
     height: auto;
 }
 
+.fixed-bg2 {
+    /* The background image */
+    background-image: url("../img1/Backgrounds/patrick-tomasso-216284.jpg");
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 500px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+}
+
+.fixed-bg3 {
+    /* The background image */
+    background-image: url("../img1/Backgrounds/preston-pownell-14388.jpg");
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 500px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+}
+.fixed-bg4 {
+    /* The background image */
+    background-image: url("../img1/Backgrounds/matthew-payne-219003.jpg");
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 500px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+}
+.fixed-bg5 {
+    /* The background image */
+    background-image: url("../img1/Backgrounds/dmitri-popov-173676.jpg");
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 500px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+}
 .blur {
   -webkit-filter: blur(2px);
   -moz-filter: blur(2px);
@@ -53,4 +122,43 @@ footer {
   -o-filter: blur(3px);
   -ms-filter: blur(3px);
   filter: blur(3px);
+}
+
+
+.container-fade {
+    position: relative;
+}
+
+.image-fade {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle-fade {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container-fade:hover .image-fade {
+  opacity: 0.4;
+}
+
+.container-fade:hover .middle-fade {
+  opacity: .7;
+}
+
+.text-fade {
+  background-color: #808080;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
