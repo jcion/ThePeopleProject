@@ -35,36 +35,7 @@ footer {
     margin: 50px 0;
 }
 
-.script-font {
-  font-family: "Seaweed Script";
-  color: whitesmoke;
-  text-align: center;
-  font-size: 40px;
-  position: relative;
-  margin:0;
-}
 
-
-.script-font span {
-  background-color: #222;
-  padding: 0 0.3em;
-}
-
-.script-font span-footer {
-  background-color: lightgrey;
-  padding: 0 0.3em;
-}
-
-
-.script-font:before {
-  content:"";
-  display: block;
-  position: absolute;
-  z-index:-1;
-  top: 50%;
-  width: 100%;
-  border-bottom: 3px solid whitesmoke;
-}
 
 .sandbox-correct-pronounciation {
   padding: 3em 0 3em 0;
@@ -301,4 +272,37 @@ em {
 	opacity: 0.2;
   margin: 0 0.6em;
   font-size: 0.5em;
+}
+    
+}
+
+seaweed{
+  font-family: "Seaweed Script";
+  color: whitesmoke;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  margin:0;
+}
+
+
+.span {
+  background-color: #222;
+  padding: 0 0.3em;
+}
+
+.span-footer {
+  background-color: lightgrey;
+  padding: 0 0.3em;
+}
+
+
+&::before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 100%;
+  border-bottom: 3px solid whitesmoke;
 }
