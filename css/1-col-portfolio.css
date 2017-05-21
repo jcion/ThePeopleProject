@@ -7,10 +7,10 @@
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     background: white; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(white , grey); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(white, grey); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(white, grey); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white , grey); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(white , LightGrey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, Lightgrey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, Lightgrey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white , Lightgrey); /* Standard syntax (must be last) */
 }
 
 footer {
@@ -33,6 +33,8 @@ footer {
     max-width: 100%; 
     display:block; 
     height: auto;
+    
+  border-radius: 6px;
 }
 
 .fixed-bg2 {
@@ -51,6 +53,7 @@ footer {
     max-width: 100%; 
     display:block; 
     height: auto;
+  border-radius: 6px;
 }
 
 .fixed-bg3 {
@@ -69,6 +72,7 @@ footer {
     max-width: 100%; 
     display:block; 
     height: auto;
+  border-radius: 6px;
 }
 .fixed-bg4 {
     /* The background image */
@@ -86,10 +90,11 @@ footer {
     max-width: 100%; 
     display:block; 
     height: auto;
+  border-radius: 6px;
 }
 .fixed-bg5 {
     /* The background image */
-    background-image: url("../img1/Backgrounds/dmitri-popov-173676.jpg");
+    background-image: url("../img1/Backgrounds/mark-rasmuson-108148.jpg");
     /* Set a specified height, or the minimum height for the background image */
     min-height: 500px;
     /* Set background image to fixed (don't scroll along with the page) */
@@ -103,6 +108,45 @@ footer {
     max-width: 100%; 
     display:block; 
     height: auto;
+  border-radius: 6px;
+}
+
+.fixed-bg6 {
+    /* The background image */
+    background-image: url("../img1/Backgrounds/taylor-swayze-1525%20(1).jpg");
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 500px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+  border-radius: 6px;
+}
+
+.fixed-bg-gelato {
+    /* The background image */
+    background-image: url("../img1/Backgrounds/gelato.jpg");
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 500px;
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    /* Center the background image */
+    background-position: center;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+    max-width: 100%; 
+    display:block; 
+    height: auto;
+  border-radius: 6px;
 }
 .blur {
   -webkit-filter: blur(2px);
