@@ -291,3 +291,11 @@ em {
   
  
 }
+
+/* Container Border */
+.border {
+border: 6px solid black;
+border-radius: 10px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
