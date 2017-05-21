@@ -17,6 +17,20 @@ body {
     background: linear-gradient(white , Lightgrey); /* Standard syntax (must be last) */
 }
 
+.fade-light-blue{
+    background: white; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(white , #E0EEE9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #E0EEE9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #E0EEE9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white , #E0EEE9); /* Standard syntax (must be last) */
+}
+.fade-light-red{
+    background: white; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(white , #eed4d4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #eed4d4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #eed4d4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white , #eed4d4); /* Standard syntax (must be last) */
+}
 footer {
     margin: 50px 0;
 }
