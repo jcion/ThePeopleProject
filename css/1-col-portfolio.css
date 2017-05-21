@@ -35,10 +35,39 @@ footer {
     margin: 50px 0;
 }
 
+.script-font {
+  font-family: "Seaweed Script";
+  color: whitesmoke;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  margin:0;
+}
 
+
+.script-font span {
+  background-color: #222;
+  padding: 0 0.3em;
+}
+
+.script-font span-footer {
+  background-color: lightgrey;
+  padding: 0 0.3em;
+}
+
+
+.script-font:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 100%;
+  border-bottom: 3px solid whitesmoke;
+}
 
 .sandbox-correct-pronounciation {
-  padding: 3em 0 3em 0;
+  padding: 2em 0 2em 0;
 }
 
 .heading-correct-pronounciation {
@@ -258,51 +287,7 @@ em {
   letter-spacing: 0.1em;
   display: block;
   font-style:normal;
-  padding-top: 10px;
   text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
   
-  &::before, &::after {
-  content: "§";
-  display: inline-block;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-	opacity: 0.2;
-  margin: 0 0.6em;
-  font-size: 0.5em;
-}
-    
-}
-
-seaweed{
-  font-family: "Seaweed Script";
-  color: whitesmoke;
-  text-align: center;
-  font-size: 40px;
-  position: relative;
-  margin:0;
-}
-
-
-.span {
-  background-color: #222;
-  padding: 0 0.3em;
-}
-
-.span-footer {
-  background-color: lightgrey;
-  padding: 0 0.3em;
-}
-
-
-&::before {
-  content:"";
-  display: block;
-  position: absolute;
-  z-index:-1;
-  top: 50%;
-  width: 100%;
-  border-bottom: 3px solid whitesmoke;
+ 
 }
